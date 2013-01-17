@@ -20,7 +20,7 @@ You can use it as a [Keyboard Maestro](http://www.keyboardmaestro.com/ "Keyboard
 
 If you're into Keyboard Maestro (KM), simply download the macro, double click it and KM will start importing. After its import completes you can customize shortcuts to your needs, default setting is **⌘⇧S** (**s**ubscribe).
 
-![Macro in Keyboard Maestro](screenshot_km_macro.png)
+![Macro in Keyboard Maestro](https://raw.github.com/LeEnno/label-love/master/screenshot_km_macro.png)
 
 You have to insert your Google Reader credentials and the folder you want to organize comment feeds into. Edit the macro in Keyboard Maestro. Look for the shell script with the following head:
 
@@ -48,17 +48,17 @@ Alternatively you can use it as a System Service. How to install?
 2. I recommend installing it at a characteristic location, i.e. `/Users/<your_name>/Library/Services` (which is the default for System Services).
 3. Reopen Chrome and look in the Services menu (*Chrome* → *Services*). You should see label-love as a Service.
 
-![Service in Chrome](screenshot_chrome_service.png)
+![Service in Chrome](https://raw.github.com/LeEnno/label-love/master/screenshot_chrome_service.png)
 
 I recommend to set a shortcut for even more speed. Head on to *System Preferences* → *Keyboard* → *Keyboard Shortcuts* → *Application Shortcuts* and add the one you like. When asked for the Menu Title insert – wait for it – *label-love*. BTW: for the shortcut itself I recommend using **⌘⇧S** (**s**ubscribe).
 
-![Application Shortcuts](screenshot_shortcuts.png)
+![Application Shortcuts](https://raw.github.com/LeEnno/label-love/master/screenshot_shortcuts.png)
 
-![Add shortcut](screenshot_add_shortcut.png)
+![Add shortcut](https://raw.github.com/LeEnno/label-love/master/screenshot_add_shortcut.png)
 
 You have to insert your Google Reader credentials and the folder you want to organize comment feeds into. Open the .workflow file in Automator and search for the *Run Shell Script* action. Make sure it passes input to the `stdin`.
 
-![Run Shell Script in Automator](screenshot_service_shell_script.png)
+![Run Shell Script in Automator](https://raw.github.com/LeEnno/label-love/master/screenshot_service_shell_script.png)
 
 Edit the following lines:
 
