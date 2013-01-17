@@ -1,6 +1,6 @@
 # label-love
 
-**Automator Service to subscribe to a WordPress Comment Feed with Google Reader automatically organizing it into a folder.**
+**Subscribe to a WordPress Comment Feed with Google Reader automatically organizing it into a folder – all by one single shortcut.**
 
 If you're visiting a blogpost and want to subscribe to the comments-feed by using one single shortcut, this one is for you.
 
