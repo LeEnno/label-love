@@ -47,7 +47,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run AppleScript.action</string>
 				<key>ActionName</key>
-				<string>Run AppleScript</string>
+				<string>AppleScript ausführen</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
@@ -71,7 +71,7 @@
 				<string>E90E7EFE-868E-4FD2-898E-CD35A804EBB3</string>
 				<key>Keywords</key>
 				<array>
-					<string>Run</string>
+					<string>Ausführen</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>2862F7B0-B05F-49B1-A5D9-CC530DFE8A22</string>
@@ -105,9 +105,9 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>413.500000:967.000000</string>
+				<string>745.000000:856.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/German.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -157,7 +157,7 @@ end run</string>
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>Run Shell Script</string>
+				<string>Shell-Skript ausführen</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
@@ -205,7 +205,6 @@ http://www.google.com/reader/api/0/subscription/edit`)"
     # giving feedback
     if [ $resp == "OK" ]
     then
-		url="$(echo $url | sed -E 's/^feed\/https?:\/\/(www\.)?(.*)\/feed\/$/\2/g')"
 		echo "Successfully subscribed \o/"
     else
 		echo "Something went wrong :("
@@ -239,9 +238,9 @@ done</string>
 				<key>Keywords</key>
 				<array>
 					<string>Shell</string>
-					<string>Script</string>
-					<string>Command</string>
-					<string>Run</string>
+					<string>Skript</string>
+					<string>Befehl</string>
+					<string>Ausführen</string>
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
@@ -323,9 +322,9 @@ done</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>413.500000:654.000000</string>
+				<string>745.000000:543.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/German.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -367,7 +366,7 @@ done</string>
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run AppleScript.action</string>
 				<key>ActionName</key>
-				<string>Run AppleScript</string>
+				<string>AppleScript ausführen</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
@@ -391,7 +390,7 @@ done</string>
 				<string>1498FD6A-7C26-45B9-948A-6FDB3A1580A4</string>
 				<key>Keywords</key>
 				<array>
-					<string>Run</string>
+					<string>Ausführen</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>AD363888-DD55-4C3F-B486-B801553BA3D6</string>
@@ -425,9 +424,9 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>413.500000:333.000000</string>
+				<string>745.000000:333.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/German.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -435,14 +434,14 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>5D0016E4-8CB2-47A2-994D-890C0D823916</key>
+		<key>3FDD8D20-5A72-473D-ADFB-B487C3EF6E60</key>
 		<dict>
 			<key>from</key>
 			<string>351B85E9-BE31-4AB4-9DFD-E0DE563C8BDA - 351B85E9-BE31-4AB4-9DFD-E0DE563C8BDA</string>
 			<key>to</key>
 			<string>511361FC-C3FF-4F37-B951-62C59144CAF5 - 511361FC-C3FF-4F37-B951-62C59144CAF5</string>
 		</dict>
-		<key>6A94CD57-744D-4A1F-BE89-4C4569A6AAD9</key>
+		<key>9C55567A-B457-42EB-9098-F837590322B9</key>
 		<dict>
 			<key>from</key>
 			<string>8353E7FE-8BB3-40A4-BDBC-3D136EF1A86E - 8353E7FE-8BB3-40A4-BDBC-3D136EF1A86E</string>
