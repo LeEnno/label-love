@@ -18,7 +18,7 @@ You can use it as a [Keyboard Maestro](http://www.keyboardmaestro.com/ "Keyboard
 
 ### Keyboard Maestro
 
-If you're into Keyboard Maestro (KM), simply download the macro, double click it and KM will start importing. After its import completes you can customize shortcuts to your needs, default setting is **⌘⇧S** (**s**ubscribe).
+If you're into Keyboard Maestro (KM), simply download the macro, double click it and KM will start importing. After its import completes you can customize shortcuts to your needs, default setting is **⌥⌘S** (**s**ubscribe).
 
 ![Macro in Keyboard Maestro](https://raw.github.com/LeEnno/label-love/master/screenshot_km_macro.png)
 
@@ -50,7 +50,7 @@ Alternatively you can use it as a System Service. How to install?
 
 ![Service in Chrome](https://raw.github.com/LeEnno/label-love/master/screenshot_chrome_service.png)
 
-I recommend to set a shortcut for even more speed. Head on to *System Preferences* → *Keyboard* → *Keyboard Shortcuts* → *Application Shortcuts* and add the one you like. When asked for the Menu Title insert – wait for it – *label-love*. BTW: for the shortcut itself I recommend using **⌘⇧S** (**s**ubscribe).
+I recommend to set a shortcut for even more speed. Head on to *System Preferences* → *Keyboard* → *Keyboard Shortcuts* → *Application Shortcuts* and add the one you like. When asked for the Menu Title insert – wait for it – *label-love*. BTW: for the shortcut itself I recommend using **⌥⌘S** (**s**ubscribe).
 
 ![Application Shortcuts](https://raw.github.com/LeEnno/label-love/master/screenshot_shortcuts.png)
 
@@ -78,7 +78,7 @@ parses to
 
 	feed/http://www.example.com/awesome-entry/feed/
 
-As soon as that has happend the script takes your credentials and logs into Google as you would normally do. Some fancy authorization steps will run in the background. Finally the URL is sent to Reader including the folder to organize the feed in.
+As soon as that has happend the script takes your credentials and logs into Google as you would normally do. Some fancy authorization steps will run in the background using the (still) unofficial Google Reader API [documented here](https://code.google.com/p/google-reader-api/w/list "Wiki Pages - google-reader-api - Google Reader API - Google Project Hosting"). Finally the URL is sent to Reader including the folder to organize the feed in.
 
 After completing execution it will report back if it's been successful or not.
 
