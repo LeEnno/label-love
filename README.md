@@ -93,5 +93,3 @@ And there's one more thing: label-love only supports [Google Reader](http://www.
 ---
 
 If you got any questions or issues let me know: enricoschlag at gmail dot com
-
-ignore this
